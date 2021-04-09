@@ -1,7 +1,7 @@
 # Read MIB files to numpy
 
 Python library to read Quantum Detectors Merlin MIB files to numpy with predifined geometry.
-The file is loaded as memmap. 
+The file is loaded as memmap. Dataset properties are loaded directly from the MIB header (*.hdr files are not used).
 
 Example usage:
 ```
