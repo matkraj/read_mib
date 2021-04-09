@@ -11,9 +11,9 @@ import numpy as np
 import mib
 
 path = './example.mib'
-data = mib.loadMib(path,scan_size=(2,1))
+data = mib.loadMib(path, scan_size=(2,1))
 
-print("\nMerlin file shape:",data.shape)
+print("\nMerlin file shape:", data.shape)
 ```
 > Merlin file shape: (2, 1, 256, 256)
 
@@ -25,9 +25,9 @@ import numpy as np
 import mib
 
 path = './example.mib'
-data = mib.loadMib(path,scan_size=(2))
+data = mib.loadMib(path, scan_size=(2))
 
-print("\nMerlin file shape:",data.shape)
+print("\nMerlin file shape:", data.shape)
 ```
 > Merlin file shape: (2, 256, 256)
 
