@@ -17,6 +17,8 @@ print("\nMerlin file shape:",data.shape)
 ```
 > Merlin file shape: (2, 1, 256, 256)
 
+
+
 Example usage 3D data:
 ```
 import numpy as np
